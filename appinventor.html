@@ -3,23 +3,92 @@
 <head>
     <title>App Inventor Programs</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="Styles/main.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom style for template -->
+    <link href="Styles/main.css" rel="stylesheet">
 </head>
 
 <body>
 
-<h1 style="color: green; font-size: 45pt; border-style: dashed; border-width: 5px; border-color: greenyellow;">App Inventor Programs</h1>
-<a style="font-size:24pt;" href="index.html">Home</a>
-<div><br></div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <!--<li class="nav-item active">
+              <a class="nav-link" href="python.html">Back<span class="sr-only">(current)</span></a>
+            </li>-->
+            <!--<li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>-->
+            <!--<li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="https://www.w3schools.com/">W3 Schools</a>
+                <a class="dropdown-item" href="https://docs.emmet.io/cheat-sheet/">Emmet Cheat Sheet</a>
+                <a class="dropdown-item" href="https://drive.google.com/file/d/0BxQ7KEGbNbAqNVdhYWpIY2lfQVE/view">Python Cheat Sheet</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-<h3><a href="http://ai2.appinventor.mit.edu/?galleryId=5710377138913280" target="_blank">Counter Program V2</a></h3>
+      <main role="main">
 
-<iframe width="420" height="315"
-src="https://youtube.com/embed/1esUgrgKQyg?playlist=1esUgrgKQyg&loop=1&mute=1">
-</iframe>
+        <!-- Main jumbotron -->
+        <div class="jumbotron" style="background-color: gray;">
+          <div class="container" style="background-color: black;">
+            <h1 class="display-3">App Inventor Programs</h1>
+            <!--<p style="color: white;">Description</p>
+            <p><a class="btn btn-primary btn-lg" style="background-color: greenyellow; color: black;" href="#" role="button">Jumbotron Button &raquo;</a></p>-->
+            <br>
+          </div>
+        </div>
 
-<p>*DISCLAIMER* The mouse shows up in incorrect positions in the video. I think it's the emulator's fault, as this happened with multiple different recording softwares.</p>
 
+    <div class="container">
+      <!-- Row 1 -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2></h2>
+          <p></p>
+        </div>
+        
+        <div class="col-md-4">
+          <h2>Counter Program V2</h2>
+          <iframe width="420" height="315"
+          src="https://youtube.com/embed/1esUgrgKQyg?playlist=1esUgrgKQyg&loop=1&mute=1">
+          </iframe>
+          <p>*DISCLAIMER* The mouse shows up in incorrect positions in the video. I think it's the emulator's fault, as this happened with multiple different recording softwares.</p>
+          <p><a class="btn btn-secondary" href="http://ai2.appinventor.mit.edu/?galleryId=5710377138913280" role="button" target="_blank">View App &raquo;</a></p>
+        </div>
+
+        <div class="col-md-4">
+            <h2></h2>
+            <p></p>
+          </div>
+      </div>
+    </div>
+    <br>
+    <br>
+
+
+
+</main>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
