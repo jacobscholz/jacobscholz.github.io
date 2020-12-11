@@ -1,39 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>College CS Pathways</title>
+    <title>Degree Pathways</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="Styles/main.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom style for template -->
+    <link href="Styles/main.css" rel="stylesheet">
 </head>
 
 <body>
-<h1 style="color: green; font-size: 45pt; border-style: dashed; border-width: 5px; border-color: greenyellow;">College CS Pathways</h1>
-<a style="font-size:24pt;" href="index.html">Home</a>
-<div><br></div>
 
-<h2><a href="https://osucascades.edu/" target="_blank">OSU Cascades</a></h2>
-<p>Offers a Bachelor of Science in Computer Science, with applied options in software engineering and software entrepeneurship.</p>
-<p>Also offers a Minor in Computer Science.</p>
-<div><br></div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <!--<li class="nav-item active">
+              <a class="nav-link" href="#">Back<span class="sr-only">(current)</span></a>
+            </li>-->
+            <!--<li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>-->
+            <!--<li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="https://www.w3schools.com/">W3 Schools</a>
+                <a class="dropdown-item" href="https://docs.emmet.io/cheat-sheet/">Emmet Cheat Sheet</a>
+                <a class="dropdown-item" href="https://drive.google.com/file/d/0BxQ7KEGbNbAqNVdhYWpIY2lfQVE/view">Python Cheat Sheet</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-<h3>Degree Requirements:</h3>
-<p>-Baccalaureate Core: 32-38 credits</p>
-<p>-Computer Science: 97 credits</p>
-<p>-Applied Computer Science Option: 32 credits</p>
-<p>-Electives as needed to reach 180 credits, at least 60 upper division credits</p>
-<h3><a href="https://osucascades.edu/sites/osucascades.edu/files/Advising/cs_20_21_se_4yr_sample_plan.pdf" target="_blank">Software Engineering 4-Year Sample Plan</a></h3>
-<h3><a href="https://osucascades.edu/sites/osucascades.edu/files/Advising/cs_20_21_sentr_4yr_sample_plan.pdf" target="_blank">Software Entrepeneurship 4-Year Sample Plan</a></h3>
-<div><br></div>
+      <main role="main">
 
-<h3>Minor Requirements</h3>
-<p>-Lower Division Computer Science: 20 credits</p>
-<p>-Upper Division Computer Science: 16 credits</p>
-<h3><a href="https://osucascades.edu/sites/osucascades.edu/files/Advising/cs_minor_20_21.pdf" target="_blank">Computer Science Minor Cirriculum</a></h3>
-<div><br></div>
+        <!-- Main jumbotron -->
+        <div class="jumbotron" style="background-color: gray;">
+          <div class="container" style="background-color: black;">
+            <h1 class="display-3">Degree Pathways</h1>
+            <!--<p style="color: white;">Description</p>
+            <p><a class="btn btn-primary btn-lg" style="background-color: greenyellow; color: black;" href="#" role="button">Jumbotron Button &raquo;</a></p>-->
+            <br>
+          </div>
+        </div>
 
-<h3>Attractive Qualities</h3>
-<p>The computer science degree programs are very straightforward, and OSU is a very reputable college. And since OSU Cascades is a smaller campus than OSU Corvallis, you'd probably learn better thanks to the smaller class sizes.</p>
+<h1 style="text-align:center;"><a href="https://osucascades.edu/" target="_blank">OSU Cascades</a></h2>
+
+    <div class="container">
+        <!-- Row 1 -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Attractive Qualities</h2>
+            <p>Offers a Bachelor of Science in Computer Science, with applied options in software engineering and software entrepeneurship.</p>
+            <p>Also offers a Minor in Computer Science.</p>
+            <p>The computer science degree programs are very straightforward, and OSU is a very reputable college. And since OSU Cascades is a smaller campus than OSU Corvallis, you'd probably learn better thanks to the smaller class sizes.</p>
+          </div>
+          
+          <div class="col-md-4">
+            <h2>Degree Requirements</h2>
+            <p>-Baccalaureate Core: 32-38 credits</p>
+            <p>-Computer Science: 97 credits</p>
+            <p>-Applied Computer Science Option: 32 credits</p>
+            <p>-Electives as needed to reach 180 credits, at least 60 upper division credits</p>
+            <p><a class="btn btn-secondary" href="https://osucascades.edu/sites/osucascades.edu/files/Advising/cs_20_21_se_4yr_sample_plan.pdf" target="_blank" role="button">Software Engineering 4-Year Sample Plan &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="https://osucascades.edu/sites/osucascades.edu/files/Advising/cs_20_21_sentr_4yr_sample_plan.pdf" target="_blank" role="button">Software Entrepeneurship 4-Year Sample Plan &raquo;</a></p>
+          </div>
+  
+          <div class="col-md-4">
+            <h2>Minor Requirements</h2>
+            <p>-Lower Division Computer Science: 20 credits</p>
+            <p>-Upper Division Computer Science: 16 credits</p>
+            <p><a class="btn btn-secondary" href="https://osucascades.edu/sites/osucascades.edu/files/Advising/cs_minor_20_21.pdf" target="_blank" role="button">Computer Science Minor Cirriculum &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
 <div><br></div>
 <div><br></div>
 
@@ -88,5 +141,14 @@
 
 <h3>Attractive Qualities</h3>
 <p>There are tons of computer science degree options to choose from, and OIT has a great record of employment for its graduates.</p>
+
+
+</main>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@ let palette = 0;
 
 function setup()
 {
-  createCanvas(600, 400);
+  createCanvas(800, 300);
 }
 
 function draw()
